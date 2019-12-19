@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27AB5C3E-06B9-4E56-9904-F0E3365EB39B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>rezervasyon</RootNamespace>
+    <AssemblyName>rezervasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\CiftYon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\CiftYon.Designer.cs">
+      <DependentUpon>CiftYon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rezervasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rezervasyonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="src\RezervasyonGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\RezervasyonGoruntule.Designer.cs">
+      <DependentUpon>RezervasyonGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\TekYon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\TekYon.Designer.cs">
+      <DependentUpon>TekYon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Temsilci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Temsilci.Designer.cs">
+      <DependentUpon>Temsilci.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="src\AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\CiftYon.resx">
+      <DependentUpon>CiftYon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="src\RezervasyonGoruntule.resx">
+      <DependentUpon>RezervasyonGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\TekYon.resx">
+      <DependentUpon>TekYon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Temsilci.resx">
+      <DependentUpon>Temsilci.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="rezervasyonDataSet.xsc">
+      <DependentUpon>rezervasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="rezervasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>rezervasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rezervasyonDataSet.xss">
+      <DependentUpon>rezervasyonDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifyingglass_1055031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Student-id-24_103850.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CompetentSmoggyIndianpangolin-size_restricted.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea40bbc62c9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea34a175bf1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea34a175bf11.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea34c2bf936.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea31e14db55.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloggif_5dea33b576194.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_globe _37746.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_world_9506.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_world_59318.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-arrow %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-pointing-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-experience-header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\age-range.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honeymoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homepage.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

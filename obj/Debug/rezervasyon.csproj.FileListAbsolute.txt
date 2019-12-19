@@ -1,0 +1,41 @@
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe.config
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\bin\Debug\rezervasyon.pdb
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csprojAssemblyReference.cache
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.CiftYon.resources
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Form1.resources
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Properties.Resources.resources
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csproj.GenerateResource.cache
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.exe
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.pdb
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.AnaSayfa.resources
+C:\Users\DİLEK\Source\Repos\rezervasyon\rezervasyon\obj\Debug\rezervasyon.TekYon.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe.config
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.pdb
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csprojAssemblyReference.cache
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.AnaSayfa.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.CiftYon.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Form1.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Properties.Resources.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.TekYon.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csproj.GenerateResource.cache
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.exe
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.pdb
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.RezervasyonGoruntule.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Customer.resources
+C:\Users\Özge Öksüz\Downloads\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Temsilci.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe.config
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.exe
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\bin\Debug\rezervasyon.pdb
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csprojAssemblyReference.cache
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.AnaSayfa.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.CiftYon.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Customer.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Properties.Resources.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.RezervasyonGoruntule.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.TekYon.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.Temsilci.resources
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.csproj.GenerateResource.cache
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.exe
+C:\Users\DİLEK\Desktop\rezervasyon\rezervasyon\rezervasyon\obj\Debug\rezervasyon.pdb
